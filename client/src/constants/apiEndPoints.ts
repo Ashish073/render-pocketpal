@@ -1,0 +1,10 @@
+export const LOGIN_API = 'auth';
+export const REFRESH_DRIVE_TOKEN = 'auth/refresh-token';
+export const LOGOUT_API = 'auth/logout';
+export const SIGN_UP_API = 'users';
+export const GET_CATEGORIES = 'categories';
+export const GET_EXPENSES = 'expenses';
+export const TARGET_EXPENSE = 'expenses/:id';
+export const ADD_EXPENSE = 'expenses/add';
+export const GET_EXPENSE_DATE = 'expenses/dates';
+export const GET_DATE_EXPENSES = 'expenses/expenses-by-date';
