@@ -11,7 +11,7 @@ const authRoutes = require('./routes/authRoute');
 const categoriesRoute = require('./routes/categoriesRoute');
 const expenseRoute = require('./routes/expenseRoute');
 
-const allowedOrigins = ['http://localhost', 'https://pocketpal-w5fr.onrender.com'];
+const allowedOrigins = ['http://localhost:5173', 'https://pocketpal-w5fr.onrender.com/'];
 
 const corsOptions = {
     origin: function (origin, callback) {
